@@ -1,21 +1,40 @@
 <h1 align="center">WILL TUBE - YouTube Video to Audio Converter</h1>
 <h2>Descrição</h2>
-<p>O projeto WILL TUBE é uma aplicação de interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter. Ele permite baixar vídeos do YouTube e converter esses vídeos para arquivos de áudio no formato MP3.</p>
+<p>WILL-TUBE is a simple Python application with a graphical user interface (GUI) built using the Tkinter library. It allows users to download videos from YouTube and convert them into audio files (MP3 format).</p>
 <h3>Funcionalidades</h3>
-<p>Baixar Vídeo do YouTube:
+<li>YouTube Video Download: Download YouTube videos by providing the video link.</li>
+<li>Local Video Conversion: Choose an existing video file from your computer for conversion.</li>
+<li>Audio Output Path: Select the output path for the converted audio file.</li>
+<li>Status Updates: Real-time status updates on the conversion process.</li>
+<h3>Prerequisites</h3>
+<p>Before using WILL-TUBE, ensure that you have the following dependencies installed:</p>
+<li><a href="https://www.python.org/">Python</a></li>
+<li><a href="https://moviepy.readthedocs.io/en/latest/install.html">MoviePy</a></li>
+<li><a href="https://pypi.org/project/pydub/">Pydub</a></li>
+<li><a href="https://pytube.io/en/latest/">Pytube</a></li><br>
+<p>You can install these dependencies using the following command:</p>
 
-Insira o link do vídeo desejado no campo apropriado.
-Clique no botão "Baixar Vídeo" para fazer o download do vídeo da mais alta resolução disponível.
-O caminho do vídeo baixado será exibido no campo correspondente.
-Escolher Vídeo Localmente:
+    pip install moviepy pydub pytube
 
-Caso já tenha o vídeo em seu computador, clique no botão "Escolher Vídeo" para selecionar o arquivo localmente.
-O caminho do vídeo selecionado será exibido no campo correspondente.
-Escolher Local de Saída para o Áudio:
+<h3>Usage</h3>
+<p>1. Clone the repository to your local machine:</p>
 
-Clique no botão "Escolher Saída" para escolher o local onde o arquivo de áudio convertido será salvo.
-O caminho de saída será exibido no campo correspondente.
-Converter Vídeo para Áudio:
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+<p>2. Run the application:</p>
 
-Após selecionar o vídeo e o local de saída, clique no botão "Converter para Áudio" para iniciar o processo de conversão.
-O status da conversão será exibido na parte inferior da janela.</p>
+    python your_script_name.py
+<p>3. Use the GUI to provide a YouTube video link, choose a local video file, set the output path, and convert the video to audio.</p>
+
+<h3>Screenshots</h3>
+<img src="https://github.com/wilkerlisboa/Download_Video_Convert/assets/73085812/e176f9bb-a608-4fa5-91cc-fd8f7682d8ac">
+
+<h3>Contributing</h3>
+<p>If you'd like to contribute to WILL-TUBE, please follow these steps:</p><br>
+<li>Fork the repository.</li>
+<li>Create a new branch (git checkout -b feature/your-feature).</li>
+<li>Commit your changes (git commit -am 'Add some feature').</li>
+<li>Push to the branch (git push origin feature/your-feature).</li>
+<li>Create a new Pull Request.</li><br>
+<h3>License</h3>
+<p>This project is licensed under the MIT License - see the <a href="">LICENSE</a> file for details.</p>
