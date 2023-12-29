@@ -37,4 +37,4 @@
 <li>Push to the branch (git push origin feature/your-feature).</li>
 <li>Create a new Pull Request.</li><br>
 <h3>License</h3>
-<p>This project is licensed under the MIT License - see the <a href="">LICENSE</a> file for details.</p>
+<p>This project is licensed under the BSD 2-Clause License - see the <a href="https://github.com/wilkerlisboa/Download_Video_Convert/blob/main/LICENSE">LICENSE</a> file for details.</p>
